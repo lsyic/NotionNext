@@ -90,6 +90,15 @@ const SocialButton = () => {
             <i className='fab fa-bilibili transform hover:scale-125 duration-150' />
           </a>
         )}
+        {siteConfig('CONTACT_ZHIHU') && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'zhihu'}
+            href={siteConfig('CONTACT_ZHIHU')}>
+            <i className='fab fa-zhihu transform hover:scale-125 duration-150' />
+          </a>
+        )}
         {siteConfig('CONTACT_YOUTUBE') && (
           <a
             target='_blank'
