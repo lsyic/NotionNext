@@ -77,8 +77,8 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             title={'RSS'}
-            href={'/rss/feed.xml'}>
-            <i className='fas fa-rss transform hover:scale-125 duration-150' />
+            href={siteConfig('CONTACT_ZHIHU')}>
+            <i className='fas fa-zhihu transform hover:scale-125 duration-150' />
           </a>
         )}
         {siteConfig('CONTACT_BILIBILI') && (
